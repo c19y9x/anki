@@ -65,7 +65,7 @@ pub struct SyncServerConfig {
 }
 
 fn default_host() -> IpAddr {
-    "0.0.0.0".parse().unwrap()
+    "::".parse().unwrap()
 }
 
 fn default_port() -> u16 {
